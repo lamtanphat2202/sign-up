@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Karla", sans-serif;
+    width: 100%;
+    height: 960px;
+    background-color: #a7d7c5;
+    position: relative;
+}
+
+/* ======= Common ====== */
+
+/*============ Sign-up ========= */
+.sign-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 67.5px 60px;
+    max-width: 100%;
+    width: 698px;
+    height: 698px;
+    background-color: red;
+    border-radius: 49.09px;
+    background: #f6fbf9;
+}
+
+.sign-up .sub-title {
+    color: #212b27;
+    text-align: center;
+    font-size: 5.5226rem;
+    font-weight: 700;
+    line-height: 1.3; /* 130% */
+}
+
+.sign-up .desc {
+    width: 472.492px;
+    color: #32403b;
+    text-align: center;
+    font-size: 2.3011rem;
+    font-weight: 400;
+    line-height: 1.3; /* 130% */
+    margin-left: 55px;
+    margin-bottom: 49px;
+}
+
+.input {
+    font-family: "Karla", sans-serif;
+    display: block;
+    width: 575.275px;
+    height: 84.374px;
+    padding: 32px;
+    border-radius: 15.341px;
+    outline: none;
+    border: 0;
+    color: #00000080;
+    font-size: 2.301rem;
+    font-weight: 400;
+    line-height: 84.746%;
+    background-color: #fff;
+    border: 1.534px solid #0000001a;
+    margin-bottom: 32px;
+}
+
+.form-signup .input {
+    margin-bottom: 23px;
+}
+.sign-up .ask {
+    color: #32403b;
+    text-align: center;
+    font-size: 2.1477rem;
+    font-weight: 400;
+    line-height: 1.3; /* 130% */
+}
+
+.sign-up .create {
+    font-family: "Karla", sans-serif;
+    width: 391.187px;
+    height: 90.51px;
+    border-radius: 23.011px;
+    background: #84c7ae;
+    margin-left: 100px;
+    outline: none;
+    border: 0;
+    color: #fff;
+    font-size: 3.3749rem;
+    font-weight: 700;
+    line-height: 1.3; /* 130% */
+    margin-bottom: 17px;
+}
+
+.ask a {
+    color: #32403b;
+    font-size: 2.1477rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.left {
+    position: absolute;
+    right: 0;
+    bottom: -350px;
+    width: 750px;
+    height: 750px;
+    transform: rotate(-45deg);
+    border-radius: 160px;
+    background: #c1e3d6;
+}
+
+.rigth {
+    position: absolute;
+    top: -350px;
+    width: 750px;
+    height: 750px;
+    transform: rotate(-45deg);
+    border-radius: 160px;
+    background: #c1e3d6;
+}
